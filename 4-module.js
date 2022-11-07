@@ -1,0 +1,7 @@
+const names = require("./1-name.js")
+const sayHi = require("./nameApp.js")
+const data = require("./6-altFlav")
+console.log(data)
+sayHi("julia")
+sayHi(names.potter)
+sayHi(names.pavel)
